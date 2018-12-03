@@ -34,7 +34,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.6",
     "siteFonts": [],
-    "uniqCompNum": 3,
+    "uniqCompNum": 4,
     "versionPublish": "4.8.6"
   },
   "pages": {
@@ -74,11 +74,11 @@
           "_name": "header1",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"15\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"15\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f7f7f7\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" selected=\"\">\n        </fieldset>\n\n        <select title=\"Text Position\" name=\"justify\">\n            <option value=\"1\" selected=\"\">Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{\n        'mbr-justify-content-left': justify == 1,\n        'mbr-justify-content-center': justify == 2,\n        'mbr-justify-content-right': justify == 3}\">\n        <div class=\"mbr-col-lg-7 mbr-col-md-12\">\n            <h1 class=\"mbr-fonts-style mbr-bold mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            GET STRONG TODAY</h1>\n            <p class=\"mbr-fonts-style mbr-text\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat pharetra ex, vitae feugiat erat\n            consectetur sed. Praesent commodo sed est eget pharetra. Curabitur vel risus ac elit sodales scelerisque.</p>\n            <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-5\">\n                <a class=\"btn btn-lg mbr-editable-button btn-primary\" href=\"https://mobirise.com\">\n                    READ MORE\n                    <span class=\"iconfont-wrapper\">\n                        <span class=\"fa fa-arrow-right mbr-iconfont-btn mbr-iconfont\"></span>\n                    </span>\n                </a>\n            </div>\n        </div>\n    </div>\n</div>\n\n</section>",
           "_cid": "rbbdeaA49F",
+          "_anchor": "header1-0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header1-0"
+          "_params": {}
         },
         {
           "_styles": {
@@ -106,11 +106,48 @@
           "_name": "header2",
           "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f7f7f7\" selected=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n        </fieldset>\n        <select title=\"Text Position\" name=\"justify\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected=\"\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f7f7f7\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{\n        'mbr-justify-content-left': justify == 1,\n        'mbr-justify-content-center': justify == 2,\n        'mbr-justify-content-right': justify == 3}\">\n        <div class=\"mbr-col-lg-8 mbr-col-md-12\">\n            <h2 class=\"mbr-fonts-style mbr-section-title mbr-bold align-center\" mbr-theme-style=\"display-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">STOP WISHING. START DOING.</h2>\n            <p class=\"mbr-fonts-style mbr-text align-center\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat pharetra ex, vitae feugiat erat\n            consectetur sed. Praesent commodo sed est eget pharetra. Curabitur vel risus ac elit sodales scelerisque.&nbsp;Morbi\n        consequat pharetra ex.</p>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-6\">\n            <a class=\"btn btn-lg mbr-editable-button btn-primary\" href=\"https://mobirise.com\">\n                GET STARTED\n                <span class=\"iconfont-wrapper\">\n                    <span class=\"fa fa-arrow-right mbr-iconfont-btn mbr-iconfont\"></span>\n                </span>\n            </a>\n        </div>\n    </div>\n</div>\n</div>\n</section>",
           "_cid": "rbbdehVoPz",
+          "_anchor": "header2-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            ".container-fluid": {
+              "padding": "4rem"
+            },
+            "@media (max-width: 576px)": {
+              ".container-fluid": {
+                "padding": "1rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#f7f7f7"
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f7f7f7\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" selected=\"\">\n        </fieldset>\n\n        <select title=\"Text Position\" name=\"justify\">\n            <option value=\"1\" selected=\"\">Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container-fluid\">\n        <div class=\"mbr-row\" mbr-class=\"{\n        'mbr-justify-content-left': justify == 1,\n        'mbr-justify-content-center': justify == 2,\n        'mbr-justify-content-right': justify == 3}\">\n        <div class=\"mbr-col-lg-7 mbr-col-md-12\">\n            <h1 class=\"mbr-fonts-style mbr-bold mbr-white mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                GET STRONG\n                <br>TODAY</h1>\n                <p class=\"mbr-fonts-style mbr-text\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat pharetra ex, vitae feugiat erat\n                consectetur sed. Praesent commodo sed est eget pharetra. Curabitur vel risus ac elit sodales scelerisque.</p>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-6\">\n                    <a class=\"btn btn-lg mbr-editable-button btn-primary\" href=\"https://mobirise.com\">\n                        READ MORE\n                        <span class=\"iconfont-wrapper\">\n                            <span class=\"fa fa-arrow-right mbr-iconfont-btn mbr-iconfont\"></span>\n                        </span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "rbbensHOoG",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "header2-1"
+          "_anchor": "header5-3"
         },
         {
           "_styles": {
@@ -149,11 +186,11 @@
           "_name": "header3",
           "_customHTML": "<section class=\"header3\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f7f7f7\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" selected=\"\">\n        </fieldset>\n\n        <select title=\"Text Position\" name=\"justify\">\n            <option value=\"1\" selected=\"\">Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container-fluid\">\n        <div class=\"mbr-row\" mbr-class=\"{\n        'mbr-justify-content-left': justify == 1,\n        'mbr-justify-content-center': justify == 2,\n        'mbr-justify-content-right': justify == 3}\">\n        <div class=\"mbr-col-lg-7 mbr-col-md-12\">\n            <h1 class=\"mbr-fonts-style mbr-bold mbr-section-title mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            GET STRONG TODAY</h1>\n            <p class=\"mbr-fonts-style mbr-text mbr-white\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat pharetra ex, vitae feugiat erat\n        consectetur sed. Praesent commodo sed est eget pharetra. Curabitur vel risus ac elit sodales scelerisque.</p>\n        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-6\">\n            <a class=\"btn btn-lg mbr-editable-button btn-primary\" href=\"https://mobirise.com\">\n                READ MORE\n                <span class=\"iconfont-wrapper\">\n                    <span class=\"fa fa-arrow-right mbr-iconfont-btn mbr-iconfont\"></span>\n                </span>\n            </a>\n        </div>\n    </div>\n</div>\n</div>\n\n</section>",
           "_cid": "rbbdeqKOOj",
+          "_anchor": "header3-2",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header3-2"
+          "_params": {}
         }
       ]
     }
